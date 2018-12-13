@@ -24,7 +24,7 @@
 
 ;*                                                                                                             *
 
-;*Subject: Essentially a port of the classic Atari game PONG.                                                  *
+;* Subject: Essentially a port of the classic Atari game PONG.                                                  *
 
 ;*                                                                                                             *
 
