@@ -24,7 +24,7 @@
 
 ;*                                                                                                             *
 
-;* Subject: Essentially a port of the classic Atari game PONG.                                                  *
+;* Subject: Essentially a port of the classic Atari game PONG.                                                 *
 
 ;*                                                                                                             *
 
@@ -420,7 +420,7 @@ addscorea proc
   add dl,1
   mov scoreA,dl
   pop dx
-ret
+  ret
 addscorea endp
 ;add 1 to scoreB
 addscoreb proc
@@ -429,7 +429,7 @@ addscoreb proc
   add dl,1
   mov scoreB,dl
   pop dx
-ret
+  ret
 addscoreb endp
 ;return to regular MS-DOS colors
 clear2	proc
